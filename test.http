@@ -1,0 +1,30 @@
+###Login student
+POST http://localhost:3000/api/student/login
+Content-Type: application/json
+
+{
+  "email": "ukojielvis@gmail.com",
+  "password": "string"
+}
+
+###Register student
+POST http://localhost:3000/student/register
+Content-Type: application/json
+
+{
+  "studentId": "10613090909",
+  "email": "person@mail.com",
+  "firstName": "string",
+  "lastName": "string",
+  "password": "string"
+}
+### Get student hostel by id
+GET http://localhost:3000/api/student/hostels
+
+
+### Get student bookings
+GET http://localhost:3000/api/student/bookings
+
+### Toggle Student reservation
+POST http://localhost:3000/api/student/reservation
+Authorization: e4mnm9gbtnb4w3slyfpsghg9rwh563
